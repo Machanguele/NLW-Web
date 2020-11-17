@@ -1,0 +1,96 @@
+.page-map{
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+
+}
+.page-map  aside{
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    width: 440px;
+    padding: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page-map aside h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height:42px;
+    margin-top: 64px;
+}
+
+.page-map aside p{
+    line-height: 28px;
+    margin-top: 24px
+}
+
+.page-map aside footer{
+    display: flex;
+    flex-direction: column;
+
+    line-height: 24px;
+}
+
+.page-map aside footer strong{
+    font-weight: 800;
+
+}
+
+.page-map .create-orphanage{
+    position: absolute;
+    right: 48px;
+    bottom: 40px;
+
+    width: 64px;
+    height: 64px;
+    background: #15c3d6;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 0.2s;
+}
+
+.page-map .create-orphanage:hover{
+    background: #17d6eb;
+
+}
+
+.page-map .map-popup .leaflet-popup-content-wrapper {
+    /*color: #12AFCB;*/
+    /*background-color: #12AFCB;*/
+}
+.page-map .map-popup .leaflet-popup-content {
+    color: #12AFCB;
+    font-weight: bold;
+    margin: 2px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: #12AFCB;*/
+}
+
+.page-map .map-popup .leaflet-popup-content a {
+    width: 40px;
+    height: 48px;
+    background: #0089A5;
+    box-shadow: 17px 27px 41px rgba(23, 142, 166, .16);
+    border-right: 12px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-map .map-popup .leaflet-popup-tip-content {
+    display: none;
+}
